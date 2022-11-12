@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="my_string">Button</string>
+    <string name="my_string1">과제방</string>
+    <string name="my_string2">C++프로그래밍</string>
+    <string name="my_string3">리눅스 시스템</string>
+    <string name="my_string4">창의적 공학설계</string>
+</resources>

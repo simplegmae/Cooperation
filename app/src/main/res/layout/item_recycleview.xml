@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="307dp"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/listtext1"
+        android:layout_width="141dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center_vertical"
+        android:text="Task Content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/listtext2"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_vertical"
+        android:text="Deadline"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/listcheckbox"
+        android:layout_width="86dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="-126dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="@font/swagger"
+        android:text="완료" />
+
+</RelativeLayout>
